@@ -13,8 +13,12 @@ class Stack {
 public:
     Stack(size_t capacity) : m_nArray(new int[capacity]),m_nCapacity(capacity),m_nTop(0) {}
     ~Stack(void) {
-        delete [] m_nArray;
-        
+        if (m_nArray) {
+            delete [] m_nArray;
+            m_nArray = NULL;
+        }
+        m_nCapacity = 0;
+        m_nTop = 0;
     }
     void Push(int nData) {
         if (m_nTop >= m_nCapacity)
