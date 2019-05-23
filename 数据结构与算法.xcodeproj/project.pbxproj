@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F50A06C229689E7009E544F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F50A06B229689E7009E544F /* main.cpp */; };
 		8D4875452195B65800529671 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D4875442195B65800529671 /* main.c */; };
 		8D4875502195B9F400529671 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D48754F2195B9F400529671 /* main.c */; };
 		8D5373762191DC1C00444D10 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D5373752191DC1C00444D10 /* main.c */; };
@@ -33,6 +34,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		7F50A067229689E7009E544F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8D4875402195B65800529671 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,6 +172,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7F50A069229689E7009E544F /* 15-堆栈(C++) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15-堆栈(C++)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F50A06B229689E7009E544F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8D4875422195B65800529671 /* 12-大O */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12-大O"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4875442195B65800529671 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8D48754D2195B9F400529671 /* 13-排序算法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "13-排序算法"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,6 +223,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7F50A066229689E7009E544F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D48753F2195B65800529671 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,6 +331,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F50A06A229689E7009E544F /* 15-堆栈(C++) */ = {
+			isa = PBXGroup;
+			children = (
+				7F50A06B229689E7009E544F /* main.cpp */,
+			);
+			path = "15-堆栈(C++)";
+			sourceTree = "<group>";
+		};
 		8D4875432195B65800529671 /* 12-大O */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,6 +372,7 @@
 				8D4875432195B65800529671 /* 12-大O */,
 				8D48754E2195B9F400529671 /* 13-排序算法 */,
 				8D632EB92196C59F0089CB56 /* 14-二分查找 */,
+				7F50A06A229689E7009E544F /* 15-堆栈(C++) */,
 				8D5373662191DC0B00444D10 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -366,6 +394,7 @@
 				8D4875422195B65800529671 /* 12-大O */,
 				8D48754D2195B9F400529671 /* 13-排序算法 */,
 				8D632EB82196C59E0089CB56 /* 14-二分查找 */,
+				7F50A069229689E7009E544F /* 15-堆栈(C++) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -487,6 +516,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7F50A068229689E7009E544F /* 15-堆栈(C++) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F50A06F229689E7009E544F /* Build configuration list for PBXNativeTarget "15-堆栈(C++)" */;
+			buildPhases = (
+				7F50A065229689E7009E544F /* Sources */,
+				7F50A066229689E7009E544F /* Frameworks */,
+				7F50A067229689E7009E544F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "15-堆栈(C++)";
+			productName = "15-堆栈(C++)";
+			productReference = 7F50A069229689E7009E544F /* 15-堆栈(C++) */;
+			productType = "com.apple.product-type.tool";
+		};
 		8D4875412195B65800529671 /* 12-大O */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D4875482195B65800529671 /* Build configuration list for PBXNativeTarget "12-大O" */;
@@ -734,6 +780,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Ne;
 				TargetAttributes = {
+					7F50A068229689E7009E544F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8D4875412195B65800529671 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -804,11 +853,20 @@
 				8D4875412195B65800529671 /* 12-大O */,
 				8D48754C2195B9F400529671 /* 13-排序算法 */,
 				8D632EB72196C59E0089CB56 /* 14-二分查找 */,
+				7F50A068229689E7009E544F /* 15-堆栈(C++) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7F50A065229689E7009E544F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F50A06C229689E7009E544F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D48753E2195B65800529671 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -933,6 +991,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		7F50A06D229689E7009E544F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F50A06E229689E7009E544F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8D4875462195B65800529671 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1273,6 +1349,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7F50A06F229689E7009E544F /* Build configuration list for PBXNativeTarget "15-堆栈(C++)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F50A06D229689E7009E544F /* Debug */,
+				7F50A06E229689E7009E544F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8D4875482195B65800529671 /* Build configuration list for PBXNativeTarget "12-大O" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
