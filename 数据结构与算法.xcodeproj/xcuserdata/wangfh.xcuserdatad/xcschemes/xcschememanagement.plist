@@ -79,6 +79,31 @@
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
+		<key>16-链式实现堆栈(C++).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>17-队列.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>18-链式实现队列(C++).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>19-堆栈的应用(寻路).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
+		<key>19-队列的运用.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 	</dict>
 </dict>
 </plist>
